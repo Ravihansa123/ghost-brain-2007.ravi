@@ -1,0 +1,358 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');  
+  
+  
+      * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+      }
+      main {
+         flex: 1 0 auto;
+      }
+      footer {
+         color: #fff;
+         background: black;
+         position: relative;
+         
+         /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 40px;
+         background: #111;
+         /* positions the copyright at the bottom of the footer */
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+         right: 10px;
+      }
+      .footer-body {
+         margin-bottom: 40px;
+         padding: 30px;
+        
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li > a {
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+      }
+      
+
+.class1{
+  border-radius: 10px;
+  color: red;
+  color: white;
+  background-color: blue;
+  border-color: greenyellow;
+}
+
+
+.gobbaya{
+  color: black;
+  background: lightskyblue;
+  border-radius: 30px;
+}
+  
+
+
+.class2{
+  border-radius: 10px;
+  color: red;
+  color: white;
+  background-color: blue;
+  border-color: greenyellow;
+}
+
+
+
+.class3{
+  border-radius: 10px;
+  color: red;
+  color: white;
+  background-color: blue;
+  border-color: greenyellow;
+}
+
+
+
+.class4{
+  border-radius: 10px;
+  color: red;
+  color: white;
+  background-color: blue;
+  border-color: greenyellow;
+}
+  
+
+  
+.btn btn-secondary btn-lg{
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pug SCSS Result Skip Results Iframe
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.menu-container {
+  position: absolute;
+  width:5rem;
+  height: 5rem;
+  overflow: hidden;
+  left:0;
+  top: 0;
+  transition-delay: .3s;
+}
+
+.menu {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  background-color: #1c7cd6;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  transition: all .3s;
+}
+
+#hamburger {
+  display: none;
+}
+
+label {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: pointer;
+  tap-highlight-color:transparent;
+  
+  &:before {
+  content: "";
+  position: absolute;
+  top: 65%;
+    left: 65%;
+  width: 1em;
+  height: 0.15em;
+  background: white;
+  box-shadow: 
+    0 0.25em 0 0 white,
+    0 0.5em 0 0 white;
+    transform: scale(2);
+}
+}
+
+#hamburger:checked ~ .menu-container {
+  width: 30vw;
+  height: 100vh;
+  transition-delay: 0s;
+}
+
+#hamburger:checked ~ .menu-container .menu {
+  width: 250vh;
+  height: 250vh;
+  transition: all .3s;
+}
+
+.menu-container .links {
+  position: absolute;
+  left: 15vw;
+  top: 50vh;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  a {
+    display: block;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 3rem;
+  }
+}
+
+.content {
+  padding: 3rem 10rem;
+  transition: all .2s;
+  transition-delay: .1s;
+  
+  h1 {
+    font-size: 2rem;
+    color: #212529;
+  }
+  
+  h1:not(.header) {
+    margin-top: 4rem;
+  }
+  
+  p {
+    margin-top: 2rem;
+    color: #495057;
+  }
+}
+
+#hamburger:checked ~ .content {
+  padding-left: 35vw;
+  transition: all .2s;
+  transition-delay: 0s;
+}
+
+input[type="checkbox"]
+{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+.check{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  background: #092ce3;
+  cursor: pointer;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: ease-in 0.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+ .gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: white;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.side-menu{
+  position: fixed;
+  top: 50%;
+  right: -200px;
+  width: 200px;
+  background-color: white;
+  transition: .4s linear;
+  top: 95px;
+}
+
+.side-menu.active{
+  right: 0;
+}
+
+.side-menu a{
+  display: block;
+  padding: 14px 10px;
+  color: #333;
+  font-size: 20px;
+  transition: .4s linear;
+}
+
+.side-menu a i{
+  width: 40px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.side-menu a:hover{
+  background-color: black;
+  color: #f1f1f1;
+}
+
+.toggle-btn{
+  position: absolute;
+  left: -40px;
+  top: 20px;
+  width: 40px;
+  height: 50px;
+  background: white;
+  color: black;
+  line-height: 10px;
+  text-align: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  bottom: 100px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
